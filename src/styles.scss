@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+:root {
+  --gray0: #f8f8f8;
+  --gray1: #dbe1e8;
+  --gray3: #6c7983;
+  --gray5: #2a2e35;
+
+
+  // dark-theme
+  --gray6: #12181b;
+  --gray2: #b2becd;
+
+  // light-theme
+  --white: #ffffff;
+  --gray4: #454e56;
+
+
+  // color-theme
+  --color-bg: #FBF8EE;
+  --text-color: #E9E3DF;
+
+}
+
+@mixin default-theme {
+  background-color: var(--gray6);
+  color: var(--gray2);
+  transition: all 0.3s ease;
+}
+
+.dark-theme {
+  @include default-theme;
+}
+
+.light-theme {
+  background-color: var(--white);
+  color: var(--gray4);
+  transition: all 0.5s ease;
+}
+
+.color-theme {
+  background-color: var(--color-bg);
+  color: var(--text-color);
+  transition: all 0.5s ease;
+}
