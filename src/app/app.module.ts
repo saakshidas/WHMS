@@ -11,7 +11,6 @@ import { InventoryListComponent } from './modules/inventory/pages/inventory-list
 import { InventoryDetailsComponent } from './modules/inventory/pages/inventory-details/inventory-details.component';
 import { InventoryFormComponent } from './modules/inventory/pages/inventory-form/inventory-form.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
-import { materialize } from 'rxjs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
